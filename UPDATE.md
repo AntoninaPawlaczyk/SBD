@@ -13,10 +13,14 @@ SET cena=170.000
 WHERE id="1"
 ```
 UPDATE samochody 
+``
 SET model=Toyota model=Colla+170.00;
 ```
+
 Zaktualizuj dostępność samochodu po wypożyczeniu
 Załóżmy, że samochód o id=6 został wypożyczony, więc jego dostępność powinna być ustawiona na 0
+```
+```
 Oznacz samochód jako dostępny po jego zwrocie
 Załóżmy, że samochód o id=6 został zwrócony przez klienta i jego dostępność zostanie ustawiona na 1
 Przedłuż czas wypożyczenia samochodu dla konkretnego klienta
