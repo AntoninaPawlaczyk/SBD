@@ -1,10 +1,17 @@
 Zaktualizuj dane klienta
-```
 Załóżmy, że klient o id=1 zmienił numer telefonu na '999-999-999'
 ```
-Zaktualizuj cenę wynajmu dla konkretnego modelu samochodu
+UPDATE klienci
+SET NumerTelefonu = "999-999-999"
+WHERE Id = "1";
 ```
+Zaktualizuj cenę wynajmu dla konkretnego modelu samochodu
 Załóżmy, że cena wynajmu samochodu marki 'Toyota' i modelu 'Corolla' zostanie zmieniona na 170.00
+```  
+UPDATE samochody
+SET cena=170.000
+WHERE id="1"
+```
 UPDATE samochody 
 SET model=Toyota model=Colla+170.00;
 ```
